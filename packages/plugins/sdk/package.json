@@ -108,7 +108,7 @@
   },
   "dependencies": {
     "@armyofagents/shared": "workspace:*",
-    "zod": "^3.24.2"
+    "zod": "^4.6.6"
   },
   "devDependencies": {
     "@types/node": "^24.6.0",
