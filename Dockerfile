@@ -28,7 +28,7 @@ RUN apt-get update \
     wget \
     zip \
   && rm -rf /var/lib/apt/lists/* \
-  && corepack enable
+  && npm install --global corepack && corepack enable
 
 # Modify the existing node user/group to have the specified UID/GID to match host user
 RUN usermod -u $USER_UID --non-unique node \
